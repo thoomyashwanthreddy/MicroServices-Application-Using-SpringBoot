@@ -23,4 +23,6 @@ Hystrix is a library from Netflix. Hystrix isolates the points of access between
    <artifactId>spring-cloud-starter-hystrix</artifactId>
 </dependency>
 
-
+## ZIPKIN SERVICE and SLUETH
+Zipkin service will serve as the store for all our spans. Each span is sent to this service and collected into traces for future identification.Sleuth integrates effortlessly with logging frameworks like Logback and SLF4J to add unique identifiers that help track and diagnose issues using logs. Using Slueth the log information is shown the format of:    [application name, traceId, spanId, export]
+Note: You need to manually download the Zipkin Server jar and then run in the command prompt which runs on the http://localhost:9411 Then navigate to the http://localhost:9411 using the web browser and after the services are up and running you can see the log traces of each rest end point.
