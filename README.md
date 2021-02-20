@@ -16,9 +16,8 @@ server.port = 8761
 ![Eureka Server](https://github.com/thoomyashwanthreddy/MicroServices-Application-Using-SpringBoot/blob/main/Images/eureka_server_running_on_port_8761.jpg)
 
 ## Hystrix
-Hystrix is a library from Netflix. Hystrix isolates the points of access between the services, stops cascading failures across them and provides the fallback options.The @EnableHystrix annotation is used to enable the Hystrix functionalities into your Spring Boot application.
+Hystrix is a library from Netflix. Hystrix isolates the points of access between the services, stops cascading failures across them and provides the fallback options.The @EnableHystrix annotation is used to enable the Hystrix functionalities into your Spring Boot application. And also we need to write a fallbackmethod inorder to give the appropriate message if the service is not up. And also you need to write configuration in application.yml file for the fallback and hystrix stream
 ### Maven users can add the following dependency in the pom.xml file −
-
 <dependency>
    <groupId>org.springframework.cloud</groupId>
    <artifactId>spring-cloud-starter-hystrix</artifactId>
