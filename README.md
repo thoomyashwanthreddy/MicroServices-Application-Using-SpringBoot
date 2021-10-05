@@ -15,7 +15,7 @@ eureka.client.registerWithEureka = false
 eureka.client.fetchRegistry = false
 server.port = 8761
 
-#### Use the URL http://localhost:8761/ in your web browser and you can find the Eureka Server running on the port 8761 as shown below −
+ Use the URL http://localhost:8761/ in your web browser and you can find the Eureka Server running on the port 8761 as shown below −
 ![Eureka Server](https://github.com/thoomyashwanthreddy/MicroServices-Application-Using-SpringBoot/blob/main/Images/eureka_server_running_on_port_8761.jpg)
 
 ## Hystrix
